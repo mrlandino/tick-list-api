@@ -1,3 +1,9 @@
+# Tick List API
+This is an API using Express/Node.js for a final Mod 3 project at Turing Software of Engineering and Design.
+This app exposes endpoints to return a single users list of climbs. 
+
+Available endpoints:
+
 ####  1. Get Climbs: Returns a user's climbs
 
 <details>
