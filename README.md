@@ -263,3 +263,49 @@ grade: 5,
 location: "Boone, NC",
 completed: true
 }
+
+```
+</details>
+
+---
+
+  #### 3. Create New Climb: Does NOT persist with server
+
+<details>
+  <summary> Request </summary>
+  
+  *POST `http://localhost:3000/api/v1/climbs`*
+  
+  ```
+      {
+        name: "Throttle",
+        grade: 5,
+        location: "Boone, NC",
+        completed: true
+       }
+  ```
+  </details>
+  
+  <details>
+    <summary> Response </summary>
+  
+```  
+    {
+        "data": {
+            "id": "1",
+            "type": "user",
+            "attributes": {
+                "id": 1,
+                "username": "Ross",
+                "email": "ross@vanMail.com",
+                "profilePhoto": "url/ross-in-van.png",
+                "settings": {
+                    "workTime": "25",
+                    "shortPomTime": "5",
+                    "longPomTime": "10"
+                }
+            }
+        }
+    }
+```
+</details>
