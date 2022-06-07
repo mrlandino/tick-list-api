@@ -278,10 +278,10 @@ completed: true
   
   ```
       {
-        name: "Throttle",
-        grade: 5,
-        location: "Boone, NC",
-        completed: true
+        "name": "Project Plow Share",
+        "grade": 8,
+        "location": "Boone, NC",
+        "completed": false
        }
   ```
   </details>
@@ -291,21 +291,11 @@ completed: true
   
 ```  
     {
-        "data": {
-            "id": "1",
-            "type": "user",
-            "attributes": {
-                "id": 1,
-                "username": "Ross",
-                "email": "ross@vanMail.com",
-                "profilePhoto": "url/ross-in-van.png",
-                "settings": {
-                    "workTime": "25",
-                    "shortPomTime": "5",
-                    "longPomTime": "10"
-                }
-            }
-        }
+      "id": "31",
+      "name": "Project Plow Share",
+      "grade": 8,
+      "location": "Boone, NC",
+      "completed": false
     }
 ```
 </details>
