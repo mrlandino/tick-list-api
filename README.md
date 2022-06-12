@@ -9,7 +9,7 @@ Available endpoints:
 <details>
   <summary> Request </summary>
   
-  *GET `http://localhost:3000/api/v1/climbs/`*
+  *GET `https://tick-list-api.herokuapp.com/api/v1/climbs`*
   
   </details>
   
@@ -248,7 +248,7 @@ Available endpoints:
 <details>
   <summary> Request </summary>
   
-  *GET `http://localhost:3000/api/v1/climbs/1`*
+  *GET `https://tick-list-api.herokuapp.com/api/v1/climbs/0`*
   
   </details>
   
@@ -274,7 +274,7 @@ completed: true
 <details>
   <summary> Request </summary>
   
-  *POST `http://localhost:3000/api/v1/climbs`*
+  *POST `https://tick-list-api.herokuapp.com/api/v1/climbs`*
   
   ```
       {
