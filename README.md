@@ -731,7 +731,7 @@ Available endpoints:
 <details>
   <summary> Request </summary>
   
-  *POST `https://tick-list-api.herokuapp.com/api/v1/climbs`*
+  *PATCH `https://tick-list-api.herokuapp.com/api/v1/climbs`*
   
   ```
       {
