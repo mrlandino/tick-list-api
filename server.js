@@ -74,7 +74,7 @@ app.delete('/api/v1/climbs', (request, response) => {
   const { id } = request.body;
   app.locals.climbs.splice(Number(id), 1);
  
-  response.status(201).json({ id });
+  response.status(201).json(app.locals.climbs);
 });
 
 app.patch('/api/v1/climbs', (request, response) => {
