@@ -67,7 +67,7 @@ app.post('/api/v1/climbs', (request, response) => {
   
     app.locals.climbs.push({ id, name, grade, location, completed, video });
   
-    response.status(201).json({ id, name, grade, location, completed, video});
+    response.status(201).json(app.locals.climbs);
 });
 
 app.delete('/api/v1/climbs', (request, response) => {
