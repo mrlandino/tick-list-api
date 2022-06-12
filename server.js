@@ -82,7 +82,7 @@ app.patch('/api/v1/climbs', (request, response) => {
 
   app.locals.climbs[Number(id)].completed = completed
 
-  response.status(201).json({ completed, id });
+  response.status(201).json(app.locals.climbs);
 });
 
 app.listen(app.get('port'), () => {
